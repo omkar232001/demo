@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @ResponseBody
-public class Con {
+public class Control {
     @RequestMapping("/")
     public String s(){
         return "Hello properties";
